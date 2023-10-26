@@ -26,4 +26,4 @@ jobs:
     - name: Test with pytest
       run: |
         sudo apt-get install python3-pytest -y
-        pytest-3 hello.py
+        pytest-3 test.py
