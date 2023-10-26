@@ -5,3 +5,5 @@ def inc(x):
 
 def test_answer():
     assert inc(4) == 5
+
+print("ok")
