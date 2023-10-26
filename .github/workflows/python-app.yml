@@ -25,5 +25,5 @@ jobs:
         python-version: "3.10"
     - name: Test with pytest
       run: |
-        apt-get install python3-pytest -y
+        sudo apt-get install python3-pytest -y
         pytest-3 hello.py
